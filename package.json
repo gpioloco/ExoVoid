@@ -22,6 +22,16 @@
         "label": "ExoVoidBetterCpp",
         "uiTheme": "hc-black",
         "path": "./themes/ExoVoid-purple-betterCPP.json"
+      },
+      {
+        "label": "ExoVoidBetterCppRedline",
+        "uiTheme": "hc-black",
+        "path": "./themes/ExoVoid-purple-betterCPP-RedLine.json"
+      },
+      {
+        "label": "ExoVoidBetterCppGreenLine",
+        "uiTheme": "hc-black",
+        "path": "./themes/ExoVoid-purple-betterCPP-GreenLine.json"
       }
     ]
   }
