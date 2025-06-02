@@ -2,8 +2,9 @@
   "name": "exovoid",
   "publisher": "GinoPioLoco",
   "displayName": "ExoVoid",
+  "license":"MIT",
   "description": "A theme for OLED screens",
-  "version": "0.0.4",
+  "version": "1.1.0",
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -16,6 +17,11 @@
         "label": "ExoVoid",
         "uiTheme": "vs-dark",
         "path": "./themes/ExoVoid-color-theme.json"
+      },
+      {
+        "label": "ExoVoidBetterCpp",
+        "uiTheme": "hc-black",
+        "path": "./themes/ExoVoid-purple-betterCPP.json"
       }
     ]
   }
