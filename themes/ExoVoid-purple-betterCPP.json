@@ -426,7 +426,7 @@
       "name": "C operator assignment",
       "scope": "keyword.operator.assignment.c,keyword.operator.comparison.c,keyword.operator.c,keyword.operator.increment.c,keyword.operator.decrement.c,keyword.operator.bitwise.shift.c,keyword.operator.assignment.cpp,keyword.operator.comparison.cpp,keyword.operator.cpp,keyword.operator.increment.cpp,keyword.operator.decrement.cpp,keyword.operator.bitwise.shift.cpp",
       "settings": {
-        "foreground": "#ff0000"
+        "foreground": "#756aff"
       }
     },
     {
@@ -1826,7 +1826,8 @@
       "name": "comment",
       "scope": "comment.line.double-slash,comment.block.documentation",
       "settings": {
-        "fontStyle": "italic"
+        "fontStyle": "italic",
+        "foreground": "#494b4d"
       }
     },
     {
@@ -1843,13 +1844,14 @@
         "fontStyle": "italic"
       }
     },
-    //BETTER CPP SYNTAX
-    //GII
+    {
+      "GII": 1
+    },
     {
 			"scope": [
 				"meta.embedded",
 				"source.groovy.embedded",
-				"string meta.image.inline.markdown",
+        "string meta.image.inline.markdown"
 			],
 			"settings": {
 				"foreground": "#D4D4D4"
@@ -1893,7 +1895,7 @@
 				"keyword.operator.minus.exponent"
 			],
 			"settings": {
-				"foreground": "#b5cea8"
+        "foreground": "#60F60F"
 			}
 		},
 		{
@@ -2028,7 +2030,7 @@
 		{
 			"scope": "meta.preprocessor.string",
 			"settings": {
-				"foreground": "#ce9178"
+        "foreground": "#fb6a00"
 			}
 		},
 		{
@@ -2052,13 +2054,13 @@
 		{
 			"scope": "storage",
 			"settings": {
-				"foreground": "#569cd6"
+        "foreground": "#C81C1C"
 			}
 		},
 		{
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#569cd6"
+        "foreground": "#D02727"
 			}
 		},
 		{
@@ -2076,7 +2078,7 @@
 				"meta.embedded.assembly"
 			],
 			"settings": {
-				"foreground": "#ce9178"
+        "foreground": "#fb6a00"
 			}
 		},
 		{
@@ -2133,7 +2135,7 @@
 		{
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#569cd6"
+        "foreground": "#D6565A"
 			}
 		},
 		{
@@ -2162,7 +2164,7 @@
 				"keyword.operator.wordlike"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+        "foreground": "#756aff"
 			}
 		},
 		{
@@ -2218,10 +2220,10 @@
 				"support.function",
 				"support.constant.handlebars",
 				"source.powershell variable.other.member",
-				"entity.name.operator.custom-literal" // See https://en.cppreference.com/w/cpp/language/user_literal
+        "entity.name.operator.custom-literal" //. See https://en.cppreference.com/w/cpp/language/user_literal
 			],
 			"settings": {
-				"foreground": "#DCDCAA"
+        "foreground": "#db2bff"
 			}
 		},
 		{
@@ -2302,7 +2304,8 @@
 				"constant.other.placeholder", // placeholders in strings
 			],
 			"settings": {
-				"foreground": "#9CDCFE"
+        "fontStyle": "bold",
+        "foreground": "#53BCF5"
 			}
 		},
 		{
@@ -2414,11 +2417,18 @@
 		{
 			"scope": [
 				"keyword.control.directive",
-				"variable.parameter",
 				"entity.other.attribute-name.pragma.preprocessor.cpp"
 			],
 			"settings": {
 				"foreground": "#9A9A9A"
+			}
+		},
+		{
+			"scope": [
+				"variable.parameter"
+			],
+			"settings": {
+				"foreground": "#B34CF7"
 			}
 		},
 		{
@@ -2430,13 +2440,13 @@
 				"entity.name.scope-resolution"
 			],
 			"settings": {
-				"foreground": "#C8C8C8"
+        "foreground": "#7CF496"
 			}
 		},
 		{
 			"scope": "variable.other.property",
 			"settings": {
-				"foreground": "#DADADA"
+        "foreground": "#F9ED0A"
 			}
 		},
 		{
@@ -2490,7 +2500,7 @@
 		{
 			"scope": "punctuation.support.type.property-name",
 			"settings": {
-				"foreground": "#9CDCFE"
+        "foreground": "#1DA6EF"
 			}
 		},
 		{
