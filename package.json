@@ -4,7 +4,7 @@
   "displayName": "ExoVoid",
   "license":"MIT",
   "description": "A theme for OLED screens",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -16,22 +16,7 @@
       {
         "label": "ExoVoid",
         "uiTheme": "vs-dark",
-        "path": "./themes/ExoVoid-color-theme.json"
-      },
-      {
-        "label": "ExoVoidBetterCpp",
-        "uiTheme": "hc-black",
-        "path": "./themes/ExoVoid-purple-betterCPP.json"
-      },
-      {
-        "label": "ExoVoidBetterCppRedline",
-        "uiTheme": "hc-black",
-        "path": "./themes/ExoVoid-purple-betterCPP-RedLine.json"
-      },
-      {
-        "label": "ExoVoidBetterCppGreenLine",
-        "uiTheme": "hc-black",
-        "path": "./themes/ExoVoid-purple-betterCPP-GreenLine.json"
+        "path": "./themes/ExoVoid.json"
       }
     ]
   }
