@@ -2,9 +2,25 @@
   "name": "exovoid",
   "publisher": "GinoPioLoco",
   "displayName": "ExoVoid",
-  "license":"MIT",
-  "description": "A theme for OLED screens",
-  "version": "1.3.0",
+  "license": "MIT",
+  "description": "A deep, OLED-optimized dark theme pack with a vivid purple accent, plus five Classic Syntax color variants for every mood.",
+  "version": "1.4.0",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#080707",
+    "theme": "dark"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "oled",
+    "color theme",
+    "purple"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gpioloco/ExoVoid.git"
+  },
   "engines": {
     "vscode": "^1.98.0"
   },
@@ -17,6 +33,31 @@
         "label": "ExoVoid",
         "uiTheme": "vs-dark",
         "path": "./themes/ExoVoid.json"
+      },
+      {
+        "label": "ExoVoid Classic Syntax - Dark Soft Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ExoVoidClassicSyntax_DarkSoftBlue.json"
+      },
+      {
+        "label": "ExoVoid Classic Syntax - Forest Green",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ExoVoidClassicSyntax_ForestGreen.json"
+      },
+      {
+        "label": "ExoVoid Classic Syntax - Magenta",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ExoVoidClassicSyntax_Magenta.json"
+      },
+      {
+        "label": "ExoVoid Classic Syntax - Rust Red",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ExoVoidClassicSyntax_RustRed.json"
+      },
+      {
+        "label": "ExoVoid Classic Syntax - Yellow",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ExoVoidClassicSyntax_Yellow.json"
       }
     ]
   }

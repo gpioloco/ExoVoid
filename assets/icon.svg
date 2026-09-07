@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="void" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#0d0615"/>
+      <stop offset="55%" stop-color="#080707"/>
+      <stop offset="100%" stop-color="#020202"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7f00fc"/>
+      <stop offset="50%" stop-color="#3b8aac"/>
+      <stop offset="100%" stop-color="#2a3078"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#c79bff"/>
+      <stop offset="100%" stop-color="#7f00fc" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="512" height="512" rx="96" fill="url(#void)"/>
+
+  <circle cx="256" cy="256" r="190" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#5cff8d" stroke-width="2" opacity="0.25"/>
+  <circle cx="256" cy="256" r="220" fill="none" stroke="#7f00fc" stroke-width="1.5" opacity="0.35"/>
+
+  <circle cx="256" cy="256" r="56" fill="url(#core)" filter="url(#glow)"/>
+  <circle cx="256" cy="256" r="18" fill="#ffffff"/>
+
+  <path d="M180 330 L200 260 L165 260 L235 150 L215 232 L252 232 Z"
+        fill="#5cff8d" opacity="0.9" filter="url(#glow)" transform="translate(78,4) scale(0.62)"/>
+</svg>
